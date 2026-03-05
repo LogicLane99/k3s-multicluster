@@ -1,0 +1,21 @@
+Repository Access
+Do end users have direct access to the mirror repositories, or is their access restricted only to the Red Hat Satellite platform?
+
+Supported Package Types in Satellite
+Can Red Hat Satellite store only RPM packages, or is it also possible to store other artifact types such as binaries or tar files (e.g., .tar, .tar.gz)?
+
+Git Repository Access
+Will end users have direct access to the GitLab repository?
+
+Access to Scripts and Configuration Files
+In the current environment, how do users access scripts and configuration files such as YAMLs?
+Are these retrieved directly from a source repository, or are they distributed through another mechanism?
+
+Packaging Upgrade YAMLs
+Do we need to package our system control upgrade YAML files into RPM packages and then upload them to Pulp so that users can access and deploy them?
+
+Version Management
+How will version maintenance be handled for these packages and configuration files?
+
+Automation Pipeline
+Do we need to create an automated CI/CD pipeline (for example in GitLab CI/CD) to build and publish RPM packages for each version to ensure they remain up to date?
